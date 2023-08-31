@@ -38,7 +38,7 @@ else
     app.UseHsts();
 }
 
-DatabaseManagementService.MigrationInitialisation(app);
+//DatabaseManagementService.MigrationInitialisation(app);
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
